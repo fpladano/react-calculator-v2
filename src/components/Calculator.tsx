@@ -87,11 +87,11 @@ function Calculator() {
 
   return (
     <>
-      {/* <Helmet>
+      <Helmet>
         <title>
           {display.isResult ? display.value : 'React Calculator v2'}
         </title>
-      </Helmet> */}
+      </Helmet>
       <CalculatorContainer>
         <Display display={display} />
         <ButtonsGrid>
